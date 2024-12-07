@@ -1,5 +1,17 @@
 import { GlobeAltIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/ui/fonts';
+import Image from 'next/image';
+
+export function VRSIcon()  {
+  return (
+    <Image
+    src='/vrs-icon.png'
+    alt='VRS Dashboard Icon'
+    width={100}
+    height={100}
+    />
+  )
+}
 
 export default function AcmeLogo() {
   return (
